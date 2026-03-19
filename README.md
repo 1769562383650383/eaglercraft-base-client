@@ -1,3 +1,15 @@
+# Client Base
+
+### Creating modules
+
+1. Open `com.isacofff.clientbase.modules.features`
+2. Create a module (See ExampleModule.java found in the `features` folder for an example)
+3. Register the module inside Manager.java
+   
+### Gui location
+
+1. Open `src.game.java.net.minecraft.client.gui.ClickGuiScreen`
+
 # Eaglercraft 1.12
 (README ripped from 1.8)
 
