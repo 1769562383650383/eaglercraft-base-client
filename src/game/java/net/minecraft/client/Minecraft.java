@@ -1196,6 +1196,11 @@ public class Minecraft implements IThreadListener {
      * Runs the current tick.
      */
     public void runTick() throws IOException {
+
+        if (Client.manager != null) {
+            Client.manager.onTick();
+        }
+
         if (this.rightClickDelayTimer > 0) {
             --this.rightClickDelayTimer;
         }
